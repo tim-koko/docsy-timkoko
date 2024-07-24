@@ -1,0 +1,84 @@
+$TK-Blue: #0a1432;
+$TK-Green: #99e0bb;
+$TK-White: #fff;
+$TK-Black: #333;
+$TK-Gray-Darker: #586069;
+$TK-Gray-Dark: #6a737d;
+$TK-Gray: #dfe2e5;
+$TK-Gray-200: #f6f8fa;
+$TK-Gray-Light: #fafbfc;
+$TK-Blue-Dark: #038;
+$TK-Primary: $TK-Blue;
+$TK-Secondary: $TK-Green;
+$dunkelgrau: $TK-Gray-Dark;
+$red: #dc3545;
+$yellow: #fd7e14;
+
+$primary: $TK-Blue !default;
+$primary-light: lighten($primary, 75%) !default;
+$secondary: $yellow !default;
+$success: #3772FF !default;
+$info: $TK-Green !default;
+$warning: $yellow !default;
+$danger: $red !default;
+$white: #fff !default;
+$light: lighten($TK-Blue, 75%) !default;
+
+$link-color: lighten($TK-Blue-Dark, 25%) !default;
+
+$td-enable-google-fonts: false;
+
+@font-face {
+    font-family: Athletics-Regular;
+    src: url("../fonts/Athletics-Regular.woff") format("woff"), url("../fonts/Athletics-Regular.woff2") format("woff2");
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizelegibility;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Athletics-Bold;
+    src: url("../fonts/Athletics-Bold.woff") format("woff"), url("../fonts/Athletics-Bold.woff2") format("woff2");
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizelegibility;
+    font-display: swap;
+}
+
+$enable-responsive-font-sizes: true;
+$td-fonts-serif: "Athletics-Regular", sans-serif;
+$font-family-sans-serif: $td-fonts-serif !default;
+
+// spare colors
+//$bs-blue: #0a1432;
+//$bs-indigo: #6610f2;
+//$bs-purple: #6f42c1;
+//$bs-pink: #d63384;
+//$bs-red: #dc3545;
+//$bs-orange: #fd7e14;
+//$bs-yellow: #ffc107;
+//$bs-green: #99e0bb;
+//$bs-teal: #20c997;
+//$bs-cyan: #0dcaf0;
+//$bs-black: #333;
+//$bs-white: #fff;
+//$bs-gray: #6c757d;
+//$bs-gray-dark: #343a40;
+//$bs-gray-100: #f8f9fa;
+//$bs-gray-200: #f6f8fa;
+//$bs-gray-300: #dee2e6;
+//$bs-gray-400: #ced4da;
+//$bs-gray-500: #adb5bd;
+//$bs-gray-600: #6c757d;
+//$bs-gray-700: #495057;
+//$bs-gray-800: #343a40;
+//$s-gray-900: #212529;
+//$bs-primary: #0a1432;
+//$bs-secondary: #99e0bb;
+//$bs-success: #99e0bb;
+//$bs-info: #0dcaf0;
+//$bs-warning: #ffc107;
+//$bs-danger: #dc3545;
+//$bs-light: #f8f9fa;
+//$bs-dark: #212529;
