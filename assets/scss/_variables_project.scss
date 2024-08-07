@@ -1,4 +1,4 @@
-$TK-Blue: #0a1432;
+$TK-Blue: rgba(10, 20, 50, 0.25);
 $TK-Green: #99e0bb;
 $TK-White: #fff;
 $TK-Black: #333;
@@ -13,18 +13,20 @@ $TK-Secondary: $TK-Green;
 $dunkelgrau: $TK-Gray-Dark;
 $red: #dc3545;
 $yellow: #fd7e14;
+$darkgreen: #75c79c;
+$linkblue: #0b57c7;
 
 $primary: $TK-Blue !default;
 $primary-light: lighten($primary, 75%) !default;
 $secondary: $yellow !default;
 $success: #3772FF !default;
-$info: $TK-Green !default;
+$info: $darkgreen !default;
 $warning: $yellow !default;
 $danger: $red !default;
 $white: #fff !default;
 $light: lighten($TK-Blue, 75%) !default;
 
-$link-color: lighten($TK-Blue-Dark, 25%) !default;
+$link-color: $linkblue !default;
 
 $td-enable-google-fonts: false;
 
@@ -44,6 +46,10 @@ $td-enable-google-fonts: false;
     font-weight: normal;
     text-rendering: optimizelegibility;
     font-display: swap;
+}
+
+.alert-info {
+    background: #ebf9f1 !important;
 }
 
 $enable-responsive-font-sizes: true;
